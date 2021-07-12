@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\TestsRepositoryFile">
+      <UniqueIdentifier>{117936e5-8a99-4d1a-96a4-876d3c05c3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tests">
+      <UniqueIdentifier>{8c119d81-95a2-4c1c-b1e1-a2a4274ed8fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{63c817b7-bb6b-4fff-80c8-444f84f35f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Repository">
+      <UniqueIdentifier>{2606c2fd-5423-477a-bbac-0456be40d1a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ui">
+      <UniqueIdentifier>{1237f02e-dd8e-45ff-9fe9-6678754786f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Service">
+      <UniqueIdentifier>{200f08b0-baba-417d-8e6f-0e713bda133d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tests\TestsEntities">
+      <UniqueIdentifier>{845771f3-9351-49ae-b9ea-64a58595f8ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tests\TestsService">
+      <UniqueIdentifier>{ecccce05-f28c-46fe-b6cf-8f230d0d5dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\TestsService">
+      <UniqueIdentifier>{4a15f7be-1613-4fd1-ac41-af2b5e98cede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\WorkingFiles">
+      <UniqueIdentifier>{a4117a6a-a81f-42ed-a99d-67c8ebfc7466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Tests">
+      <UniqueIdentifier>{f1a6e5df-2a80-4fc8-b08e-afa00a87c5ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests\TestsEntites">
+      <UniqueIdentifier>{d90558c8-61cc-43a2-8749-6cf6236dcb4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests\TestsRepository">
+      <UniqueIdentifier>{e0743a0e-8b30-48d5-b5f2-98d93d289df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests\TestsService">
+      <UniqueIdentifier>{d2b79b19-6459-4a82-a312-764e7d024152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{3788dabc-34a4-4f7f-aef2-6d686b378c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ui">
+      <UniqueIdentifier>{6219d55e-fb89-43a8-a95e-bd6cda34495a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Service">
+      <UniqueIdentifier>{57c05720-3638-47d1-a499-abab19f50462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tests\TestsRepository">
+      <UniqueIdentifier>{b11a1dac-e81e-4d92-9bcb-a6d906cb9c5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="internship.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ParkingLocation.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Reservation.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="CityService.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="TestsCar.cpp">
+      <Filter>Source Files\Tests\TestsEntites</Filter>
+    </ClCompile>
+    <ClCompile Include="TestsReservation.cpp">
+      <Filter>Source Files\Tests\TestsEntites</Filter>
+    </ClCompile>
+    <ClCompile Include="TestsParkingLocation.cpp">
+      <Filter>Source Files\Tests\TestsEntites</Filter>
+    </ClCompile>
+    <ClCompile Include="TestsRepositoryFileCSVofCars.cpp">
+      <Filter>Source Files\Tests\TestsRepository</Filter>
+    </ClCompile>
+    <ClCompile Include="TestsRepositoryFileCSVofParkingLocations.cpp">
+      <Filter>Source Files\Tests\TestsRepository</Filter>
+    </ClCompile>
+    <ClCompile Include="TestsRepositoryFileCSVofReservations.cpp">
+      <Filter>Source Files\Tests\TestsRepository</Filter>
+    </ClCompile>
+    <ClCompile Include="TestsRepositoryFileTXTofCars.cpp">
+      <Filter>Source Files\Tests\TestsRepository</Filter>
+    </ClCompile>
+    <ClCompile Include="TestsRepositoryFileTXTofParkingLocations.cpp">
+      <Filter>Source Files\Tests\TestsRepository</Filter>
+    </ClCompile>
+    <ClCompile Include="TestsRepositoryFileTXTofReservations.cpp">
+      <Filter>Source Files\Tests\TestsRepository</Filter>
+    </ClCompile>
+    <ClCompile Include="TestsCityService.cpp">
+      <Filter>Source Files\Tests\TestsService</Filter>
+    </ClCompile>
+    <ClCompile Include="Bus.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Car.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Reservation.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ParkingLocation.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CarValidator.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ReservationValidator.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ParkingLocationValidator.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ValidationException.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="RepositoryFile.h">
+      <Filter>Header Files\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="RepositoryFileCSV.h">
+      <Filter>Header Files\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="RepositoryFileTXT.h">
+      <Filter>Header Files\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="RepositoryException.h">
+      <Filter>Header Files\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="CityService.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="UniqueIDException.h">
+      <Filter>Header Files\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="TestsCar.h">
+      <Filter>Header Files\Tests\TestsEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="TestsReservation.h">
+      <Filter>Header Files\Tests\TestsEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="TestsParkingLocation.h">
+      <Filter>Header Files\Tests\TestsEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="TestsRepositoryFileCSVofCars.h">
+      <Filter>Header Files\Tests\TestsRepository</Filter>
+    </ClInclude>
+    <ClInclude Include="TestsRepositoryFileCSVofParkingLocations.h">
+      <Filter>Header Files\Tests\TestsRepository</Filter>
+    </ClInclude>
+    <ClInclude Include="TestsRepositoryFileCSVofReservations.h">
+      <Filter>Header Files\Tests\TestsRepository</Filter>
+    </ClInclude>
+    <ClInclude Include="TestsRepositoryFileTXTofParkingLocations.h">
+      <Filter>Header Files\Tests\TestsRepository</Filter>
+    </ClInclude>
+    <ClInclude Include="TestsRepositoryFileTXTofReservations.h">
+      <Filter>Header Files\Tests\TestsRepository</Filter>
+    </ClInclude>
+    <ClInclude Include="TestsRepositoryFileTXTofCars.h">
+      <Filter>Header Files\Tests\TestsRepository</Filter>
+    </ClInclude>
+    <ClInclude Include="TestsCityService.h">
+      <Filter>Header Files\Tests\TestsService</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildFromFileException.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Bus.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="carsIn.csv">
+      <Filter>Resource Files\TestsRepositoryFile</Filter>
+    </None>
+    <None Include="carsOut.csv">
+      <Filter>Resource Files\TestsRepositoryFile</Filter>
+    </None>
+    <None Include="parkingLocationsIn.csv">
+      <Filter>Resource Files\TestsRepositoryFile</Filter>
+    </None>
+    <None Include="parkingLocationsOut.csv">
+      <Filter>Resource Files\TestsRepositoryFile</Filter>
+    </None>
+    <None Include="reservationsIn.csv">
+      <Filter>Resource Files\TestsRepositoryFile</Filter>
+    </None>
+    <None Include="reservationsOut.csv">
+      <Filter>Resource Files\TestsRepositoryFile</Filter>
+    </None>
+    <None Include="cars.csv">
+      <Filter>Resource Files\WorkingFiles</Filter>
+    </None>
+    <None Include="config.json">
+      <Filter>Resource Files\WorkingFiles</Filter>
+    </None>
+    <None Include="parking_locations.csv">
+      <Filter>Resource Files\WorkingFiles</Filter>
+    </None>
+    <None Include="reservations.csv">
+      <Filter>Resource Files\WorkingFiles</Filter>
+    </None>
+    <None Include="sample_cars_for_testing_service.csv">
+      <Filter>Resource Files\TestsService</Filter>
+    </None>
+    <None Include="sample_parking_locations_for_testing_service.csv">
+      <Filter>Resource Files\TestsService</Filter>
+    </None>
+    <None Include="sample_reservations_for_testing_service.csv">
+      <Filter>Resource Files\TestsService</Filter>
+    </None>
+    <None Include="bus.csv">
+      <Filter>Resource Files\WorkingFiles</Filter>
+    </None>
+    <None Include="sample_bus_for_testing_service.csv">
+      <Filter>Resource Files\TestsService</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="carsIn.txt">
+      <Filter>Resource Files\TestsRepositoryFile</Filter>
+    </Text>
+    <Text Include="carsOut.txt">
+      <Filter>Resource Files\TestsRepositoryFile</Filter>
+    </Text>
+    <Text Include="reservationsIn.txt">
+      <Filter>Resource Files\TestsRepositoryFile</Filter>
+    </Text>
+    <Text Include="reservationsOut.txt">
+      <Filter>Resource Files\TestsRepositoryFile</Filter>
+    </Text>
+    <Text Include="parkingLocationsIn.txt">
+      <Filter>Resource Files\TestsRepositoryFile</Filter>
+    </Text>
+    <Text Include="parkingLocationsOut.txt">
+      <Filter>Resource Files\TestsRepositoryFile</Filter>
+    </Text>
+    <Text Include="cars.txt">
+      <Filter>Resource Files\WorkingFiles</Filter>
+    </Text>
+    <Text Include="parking_locations.txt">
+      <Filter>Resource Files\WorkingFiles</Filter>
+    </Text>
+    <Text Include="reservations.txt">
+      <Filter>Resource Files\WorkingFiles</Filter>
+    </Text>
+    <Text Include="bus.txt">
+      <Filter>Resource Files\WorkingFiles</Filter>
+    </Text>
+    <Text Include="sample_bus_for_testing_service.txt">
+      <Filter>Resource Files\TestsRepositoryFile</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

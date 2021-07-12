@@ -1,0 +1,14 @@
+{
+  "TXT":{
+    "fileType": "TXT",
+    "carsFileName": "cars.txt",
+    "parkingLocationsFileName": "parking_locations.txt",
+    "reservationsFileName": "reservations.txt"
+  },
+  "CSV":{
+    "fileType": "CSV",
+    "carsFileName": "cars.csv",
+    "parkingLocationsFileName": "parking_locations.csv",
+    "reservationsFileName": "reservations.csv"
+  }
+}
